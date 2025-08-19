@@ -13,5 +13,4 @@ import sys
 t = int(input())
 for i in range(t):
     a,b = sys.stdin.readline().split()
-    print("Case #{}".format(i+1))
-    print(int(a)+int(b))
+    print("Case #{}:".format(i+1),int(a)+int(b))
